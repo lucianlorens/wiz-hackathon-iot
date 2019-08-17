@@ -45,7 +45,7 @@ acendeLaranja = ()=>{
 
     for (let index = 0; index < 5000; index++) {
         setTimeout(()=>{
-            blink1.setRGB(255, 166, 0);
+            blink1.setRGB(252, 227, 3);
             blink1.setRGB(0, 0, 0);
         }, 4000)
     }
@@ -53,5 +53,8 @@ acendeLaranja = ()=>{
 
 
 module.exports = {
-    acendeVermelho
+    acendeVermelho,
+    acendeAzul,
+    acendeLaranja,
+    acendeVerde
 }
