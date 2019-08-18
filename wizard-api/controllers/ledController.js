@@ -9,7 +9,7 @@ acendeVermelho = ()=>{
         setTimeout(()=>{
             blink1.setRGB(255, 0, 0);
             blink1.setRGB(0, 0, 0);
-            blink2.setRGB(0, 0, 255);
+            blink2.setRGB(255, 0, 0);
             blink2.setRGB(0, 0, 0);
         }, 4000)
     }
